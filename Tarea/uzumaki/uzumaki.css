@@ -1,0 +1,95 @@
+body {
+    background-color:  gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar{
+background-color: #5885AF;
+}
+
+.informacion{
+    display: grid;
+    grid-template-columns: 400px auto;
+    margin-top: 4rem;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#botones{
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.sinopsis{
+    background-color: #5885AF ;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.lol{
+    list-style: none;
+}
+
+footer{
+    background-color: #5885AF;
+    margin-bottom: none;
+}
+
+.redes{
+    justify-content: space-between;
+    list-style: none;
+	text-align: center;
+    padding: 1rem;
+}
+
+h2{
+    font-style: italic;
+}
+
+
+#opinion{
+    background-color: #5885AF;
+    padding: 2rem;
+    width: 50%;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#form p {
+    text-align: center;
+}
+#form label {
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: grey;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+    color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+    color: orange;
+}
